@@ -32,6 +32,10 @@
     justify-content: space-around;
 }
 
+.justify-between{
+    justify-content: space-between;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -67,12 +71,30 @@ a{
     padding: 0.2rem;
 }
 
+.gap25{
+    gap: 0.25rem;
+}
+
+.gap1{
+    gap: 1rem;
+}
+
+.my-left{
+    margin-left: 1rem;
+}
+
+.col1{
+    width: 25%;
+}
+
+.col2{
+    width: 50%;
+}
 /* Header */
 
 header{
     background-color: black;
-    width: 100%;
-    height: 70px;
+    height: 40px;
 }
 
 header div{
@@ -88,7 +110,7 @@ header div{
 
 main{
     background-color: black;
-    height: 78vh;
+    height: 85vh;
     overflow: auto;
 }
 
@@ -96,34 +118,18 @@ main{
 
 footer{
     background-color: #222222;
-    height: 70px;
-}
-
-.mic{
-    height: 70px;
-    width: 80px;
-    line-height: 1.5rem;
-}
-
-.arrow{
-    height: 70px;
-    width: 60px;
-    line-height: 1.5rem;    
-}
-
-footer div{
+    height: 54px;
     color: white;
-    text-align: center
 }
 
-
-.bar{
-    height: 70px;
-    width: 120px;
-    background-color: #4a4a4a;
+.icon i{
+    padding: 0.25rem;
 }
 
-.details{
-    color: red;
-    padding: 1rem;
+.textend{
+    background-color: red; 
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
 }
+
