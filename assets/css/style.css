@@ -80,7 +80,11 @@ a{
 }
 
 .my-left{
-    margin-left: 1rem;
+    margin-left: 0.7rem;
+}
+
+.my-left1{
+    margin-left: 0.2rem;
 }
 
 .col1{
@@ -110,7 +114,7 @@ header div{
 
 main{
     background-color: black;
-    height: 85vh;
+    height: calc(100vh - 94px);
     overflow: auto;
 }
 
@@ -128,8 +132,8 @@ footer{
 
 .textend{
     background-color: red; 
-    margin-right: 1rem;
     padding: 0.5rem;
     border-radius: 10px;
+    margin-right: 0.2rem;
 }
 
